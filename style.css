@@ -1,0 +1,83 @@
+/* Color Palette: 
+    off-white: #f5f5f5
+    black: #191919
+*/ 
+
+/* Universal Styles */ 
+* { 
+    margin: 0; 
+    padding: 0;
+    text-decoration: none;
+}
+ 
+/* Default styling */ 
+html {
+    font-size: 16px;
+    color: #191919;
+}
+
+/* Containter for the full body of the webpage. */
+#container {
+    background: linear-gradient(#FC466B 0%, #3F5EFB 100%);
+    height: 100%; /* Extends page to fill viewport. */
+    width: 100%; /* Extends page to fill viewport. */
+    min-height: 100vh;
+    min-width: 100vw;
+    padding-bottom: 10px;
+}
+ 
+/* Wrap for the header elements including the main h1 and nav. */ 
+#header {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 25px;
+    box-shadow: 0px 5px 10px #3b3b3b;
+    font-family: 'Raleway', Sans-Serif;
+    color: #191919;
+}
+ 
+#header h1 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+ 
+nav li {
+    display: inline;
+    font-size: 1.2rem;
+    padding: 0px 5px;
+}
+
+nav a {
+    color: #191919; 
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Wrap for main and footer elements. */ 
+#wrap {
+    margin: 5% 5%;
+    padding: 5%;
+    background: rgba(245, 245, 245, 0.25);
+    border-radius: 10px;
+    font-family:  'Open Sans', Sans-Serif;
+}
+
+#wrap h2 {
+    padding-top: 25px;
+}
+
+#main h2 {
+    font-size: 1.5rem;
+}
+
+#contact-list {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+
+
